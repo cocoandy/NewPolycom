@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MainView">
+        <attr name="view_Position" format="integer"/>
+        <attr name="view_Status" format="integer"/>
+    </declare-styleable>
+</resources>

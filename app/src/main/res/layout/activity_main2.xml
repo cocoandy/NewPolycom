@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+    </LinearLayout>
+
+    <com.example.newpolycom.DemoView
+        android:id="@+id/view"
+        android:layout_width="360px"
+        android:layout_height="360px"
+        android:background="@drawable/share_bg"
+        android:visibility="gone" />
+
+    <com.example.newpolycom.LineView
+        android:id="@+id/view_line"
+        android:layout_width="360px"
+        android:layout_height="80px"
+        android:visibility="gone" />
+
+    <com.example.newpolycom.LineView
+        android:id="@+id/view_line1"
+        android:layout_width="60px"
+        android:layout_height="360px"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.example.newpolycom.MainView
+            android:id="@+id/view_line2"
+            android:layout_width="600px"
+            android:layout_height="300px"
+            android:layout_marginRight="8dp"
+            android:background="#535151" />
+
+        <com.example.newpolycom.MainView
+            android:id="@+id/view_line3"
+            android:layout_width="600px"
+            android:layout_height="300px"
+            android:background="#535151" />
+    </LinearLayout>
+
+</LinearLayout>
